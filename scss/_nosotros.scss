@@ -1,0 +1,145 @@
+header {
+    nav {
+
+        
+        .nav-item {
+    
+                text-decoration: none;
+                font-weight: 600;
+                color: $amarillo;
+                font-family: 'Cinzel', serif  ;
+                transition: 2px 1s;
+                text-shadow: 0 0 5px black;
+                padding: 10px;
+            }
+        
+        .navbar {
+            background-color: $azul;
+            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 5);
+            
+            
+        }
+
+
+        a {
+            .navbar img {
+                height: $heightlogo ;
+                border-radius: $borderlogo ;
+                
+            }
+        }
+
+
+
+    }
+}
+.nosotros {
+    background-image: url(../images/tasaciones-1.jpg);
+    
+    background-position: center ;
+    
+    background-size: cover;
+
+}
+
+main {
+    gap:2%;
+    margin:3%;
+
+    .field{
+        width: 100%;
+        border: 2px solid rgba(0, 0, 0, 0.184);
+        outline:none;
+        background-color: whitesmoke;
+        padding: 0.5rem 1rem;
+        font-size: 1.1rem;
+        margin-bottom: 22px;
+        transition: all 0.3s ease-in-out;
+    }
+    .field:hover{
+        background-color: rgba(0,0,0,0.1);
+    
+    }
+    .btn{
+        width: 100%;
+        padding: 0.5rem 1rem;
+        background-color: $azul;
+        color: #fff;
+        font-size: 1.1rem;
+        border: none;
+        outline:none;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    .btn:hover{
+        background-color: $amarillo;
+    }
+    .field:focus{
+        border: 2px solid $amarillo;
+        background-color: #fff;
+    }
+
+    a {
+        .logow {
+            position: fixed ;
+            top: 70%;
+            left: 85%;
+            border-radius: 50px;
+
+        }
+    }
+
+    
+    
+        .card-title-nosotros {
+            color: $amarillo ;
+            
+        }
+    
+
+    
+        .card-text {
+            color: $amarillo ;
+        }
+    
+
+
+}
+
+footer {
+    margin-top: 30px;
+
+    .navfooter {
+        background-color: $azul;
+        color: $amarillo ;
+        a {
+            .footerimg {
+                height: $heightlogo ;
+                border-radius: $borderlogo ;
+            }
+        }
+        h5 {
+            .colorfooter {
+                color: $amarillo ;
+            }
+
+        }
+
+        ul {
+            .colorfooter {
+                color: $amarillo ;
+            }
+        }
+        
+
+
+
+
+
+
+
+    }
+    
+
+}
+

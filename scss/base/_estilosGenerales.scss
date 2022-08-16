@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cinzel:wght@500&family=PT+Serif&family=Taviraj:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar img {
+    height: $heightlogo;
+    border-radius: $borderlogo;
+    
+}
+
+.navbar {
+    background-color: $azul ;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 5);
+}
+
+.logow {
+    
+    position: fixed ;
+    top: 70%;
+    left: 85%;
+    border-radius: 50px;
+}
+
+.footerimg {
+    height: $heightlogo;
+    border-radius: $borderlogo;
+}
+
+.navfooter  {
+    background-color: $azul ;
+    color: $amarillo ;
+}
+
+
+.colorfooter {
+    color: $amarillo ;
+}
+
+
+
+
+
+footer {
+   
+    margin-top: 30px;
+}

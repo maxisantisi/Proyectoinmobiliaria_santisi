@@ -1,15 +1,10 @@
+/* colores */
+/* medidas logo*/
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Cinzel:wght@500&family=PT+Serif&family=Taviraj:wght@300&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
-
-/*nav*/
-.inicioImg {
-  background-image: url(../images/casita.jpg);
-  background-position: center;
-  height: 100vh;
-  background-size: cover; }
 
 .navbar img {
   height: 70px;
@@ -18,39 +13,6 @@
 .navbar {
   background-color: #156591;
   box-shadow: 1px 1px 1px 1px black; }
-
-.color {
-  color: #ffd579; }
-
-.nav-item {
-  text-decoration: none;
-  font-weight: 600;
-  color: #ffd579;
-  font-family: 'Cinzel', serif;
-  transition: 2px 1s;
-  text-shadow: 0 0 5px black;
-  padding: 10px; }
-
-.card img {
-  height: 200px; }
-
-main {
-  gap: 2%;
-  margin: 3%; }
-
-.card {
-  grid-template-rows: auto;
-  gap: 2%;
-  margin: auto;
-  box-shadow: 0px 0px 10px #000;
-  border-radius: 10px;
-  background-color: antiquewhite; }
-
-.card-title {
-  font-family: 'taviraj'; }
-
-.card-body {
-  background-color: antiquewhite; }
 
 .logow {
   position: fixed;
@@ -72,198 +34,76 @@ main {
 footer {
   margin-top: 30px; }
 
-/*formulario contacto*/
-.containerForm {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 100px;
-  margin-top: 20px; }
+header nav .nav-item {
+  text-decoration: none;
+  font-weight: 600;
+  color: #ffd579;
+  font-family: 'Cinzel', serif;
+  transition: 2px 1s;
+  text-shadow: 0 0 5px black;
+  padding: 10px; }
 
-.containerForm::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-image: url(../images/llaves.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  filter: blur(50px);
-  z-index: -1;
-  background-color: rgba(0, 0, 0, 0.5); }
-
-.contact-box {
-  max-width: 850px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+header nav .navbar {
   background-color: #156591;
-  box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19); }
+  box-shadow: 1px 1px 1px 1px black; }
 
-.left {
-  background: url(../images/llaves.jpg) no-repeat center;
-  background-size: cover;
-  height: 100%; }
+header nav a .navbar img {
+  height: 70px;
+  border-radius: 30px; }
 
-.right {
-  padding: 25px 40px; }
-
-.contactoh2 {
-  position: relative;
-  padding: 0 0 10px;
-  margin-bottom: 10px;
-  color: #ffd579; }
-
-.contactoh2::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%);
-  height: 4px;
-  width: 50px;
-  border-radius: 2px; }
-
-.field {
-  width: 100%;
-  border: 2px solid rgba(0, 0, 0, 0.184);
-  outline: none;
-  background-color: whitesmoke;
-  padding: 0.5rem 1rem;
-  font-size: 1.1rem;
-  margin-bottom: 22px;
-  transition: all 0.3s ease-in-out; }
-
-.field:hover {
-  background-color: rgba(0, 0, 0, 0.1); }
-
-textarea {
-  min-height: 150px; }
-
-.btn {
-  width: 100%;
-  padding: 0.5rem 1rem;
-  background-color: #156591;
-  color: #fff;
-  font-size: 1.1rem;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out; }
-
-.btn:hover {
-  background-color: #ffd579; }
-
-.field:focus {
-  border: 2px solid #ffd579;
-  background-color: #fff; }
-
-/*nosotros*/
 .nosotros {
   background-image: url(../images/tasaciones-1.jpg);
   background-position: center;
   background-size: cover; }
 
-.card-title-nosotros {
-  color: #ffd579; }
+main {
+  gap: 2%;
+  margin: 3%; }
+  main .field {
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.184);
+    outline: none;
+    background-color: whitesmoke;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: all 0.3s ease-in-out; }
+  main .field:hover {
+    background-color: rgba(0, 0, 0, 0.1); }
+  main .btn {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: #156591;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; }
+  main .btn:hover {
+    background-color: #ffd579; }
+  main .field:focus {
+    border: 2px solid #ffd579;
+    background-color: #fff; }
+  main a .logow {
+    position: fixed;
+    top: 70%;
+    left: 85%;
+    border-radius: 50px; }
+  main .card-title-nosotros {
+    color: #ffd579; }
+  main .card-text {
+    color: #ffd579; }
 
-.card-text {
-  color: #ffd579; }
-
-/*tasaciones*/
-.bodytasaciones {
-  background-image: linear-gradient(to right, #156591, #0269a4, #106bb6, #2e6cc6, #4e6bd4); }
-
-.tasaciones {
-  overflow: hidden; }
-
-.col {
-  padding: 2rem; }
-
-.col-info {
-  background-image: linear-gradient(to right, #156591, #0269a4, #106bb6, #2e6cc6, #4e6bd4); }
-
-.col-info p {
-  line-height: 1.5; }
-
-.col-img {
-  background-position: center;
-  background-size: cover;
-  height: 768px;
-  width: 768px; }
-
-.titulo {
-  margin: 0 0 1.6rem;
-  text-transform: uppercase;
-  font-size: 2rem; }
-
-.titulo span {
-  color: #fff; }
-
-.boton {
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 700;
-  border: 2px solid #fff;
-  border-radius: 2rem;
-  padding: .8rem 1rem;
-  display: inline-block;
-  margin-top: .5rem;
-  transition: all .3s; }
-
-.boton:hover {
-  background: #fff;
-  color: #000;
-  animation: headShake;
-  animation-duration: 1s; }
-
-/* Imagen solo para mobile, para que no cargue una muy grande */
-@media screen and (max-width: 767px) {
-  .col-img {
-    background-image: url(https://picsum.photos/id/1/768);
-    height: 100vw; } }
-
-/* Estilos para desktop */
-@media screen and (min-width: 768px) {
-  .contenedor {
-    display: flex; }
-  .col {
-    width: 50%; }
-  .col-info {
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    justify-content: center;
-    min-height: 100vh; }
-  .col-info p {
-    font-size: 1.2rem; }
-  /* En desktop si que cargue una imagen mas grande */
-  .col-img {
-    background-image: url(https://picsum.photos/id/1/1200); }
-  .titulo {
-    font-size: 3.5rem; }
-  .titulo span {
-    display: block; } }
-
-@media screen and (min-width: 1200px) {
-  .col-info {
-    padding: 1rem 12rem 1rem 4rem; } }
-
-@media screen and (max-width: 880px) {
-  .containerForm {
-    padding: 20px;
-    margin-top: 55px; }
-  .contact-box {
-    grid-template-columns: 1fr; }
-  .left {
-    background-size: cover;
-    height: 100%; }
-  .right {
-    padding: 25px 20px; } }
+footer {
+  margin-top: 30px; }
+  footer .navfooter {
+    background-color: #156591;
+    color: #ffd579; }
+    footer .navfooter a .footerimg {
+      height: 70px;
+      border-radius: 30px; }
+    footer .navfooter h5 .colorfooter {
+      color: #ffd579; }
+    footer .navfooter ul .colorfooter {
+      color: #ffd579; }
