@@ -1,0 +1,8 @@
+.card {
+    @include caja_card ();
+    img {
+        height: 200px;
+        
+    }
+}
+

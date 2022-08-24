@@ -1,5 +1,6 @@
 /* colores */
 /* medidas logo*/
+/*mapas*/
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Cinzel:wght@500&family=PT+Serif&family=Taviraj:wght@300&display=swap");
 * {
   padding: 0;
@@ -46,10 +47,9 @@ header nav .nav-item {
 header nav .navbar {
   background-color: #156591;
   box-shadow: 1px 1px 1px 1px black; }
-
-header nav a .navbar img {
-  height: 70px;
-  border-radius: 30px; }
+  header nav .navbar img {
+    height: 70px;
+    border-radius: 30px; }
 
 .nosotros {
   background-image: url(../images/tasaciones-1.jpg);
@@ -68,8 +68,11 @@ main {
     font-size: 1.1rem;
     margin-bottom: 22px;
     transition: all 0.3s ease-in-out; }
-  main .field:hover {
-    background-color: rgba(0, 0, 0, 0.1); }
+    main .field:hover {
+      background-color: rgba(0, 0, 0, 0.1); }
+    main .field:focus {
+      border: 2px solid #ffd579;
+      background-color: #fff; }
   main .btn {
     width: 100%;
     padding: 0.5rem 1rem;
@@ -80,11 +83,8 @@ main {
     outline: none;
     cursor: pointer;
     transition: all 0.3s ease-in-out; }
-  main .btn:hover {
-    background-color: #ffd579; }
-  main .field:focus {
-    border: 2px solid #ffd579;
-    background-color: #fff; }
+    main .btn:hover {
+      background-color: #ffd579; }
   main a .logow {
     position: fixed;
     top: 70%;
@@ -107,3 +107,19 @@ footer {
       color: #ffd579; }
     footer .navfooter ul .colorfooter {
       color: #ffd579; }
+
+.card, .ucard {
+  background-color: antiquewhite;
+  grid-template-rows: auto;
+  gap: 2%;
+  margin: auto;
+  box-shadow: 0px 0px 10px #000;
+  border-radius: 10px;
+  font-family: 'taviraj';
+  gap: 2%;
+  margin: 1%; }
+  .card img, .ucard img {
+    height: 200px; }
+
+.colorfooter {
+  color: #ffd579; }
