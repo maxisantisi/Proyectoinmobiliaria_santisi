@@ -108,6 +108,29 @@ footer {
     footer .navfooter ul .colorfooter {
       color: #ffd579; }
 
+header .inicioImg {
+  background-image: url(../images/casita.jpg);
+  background-position: center;
+  height: 100vh;
+  background-size: cover; }
+
+header .santisi {
+  color: #156591;
+  text-shadow: 0 0 5px black; }
+
+header .btn {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: #156591;
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out; }
+  header .btn:hover {
+    background-color: #ffd579; }
+
 .card, .ucard {
   background-color: antiquewhite;
   grid-template-rows: auto;
@@ -121,5 +144,148 @@ footer {
   .card img, .ucard img {
     height: 200px; }
 
+h5 {
+  color: #156591; }
+
+.bodytasaciones {
+  background-image: linear-gradient(to right, #156591, #0269a4, #106bb6, #2e6cc6, #4e6bd4); }
+
+.tasaciones {
+  overflow: hidden; }
+
+.titulo {
+  margin: 0 0 1.6rem;
+  text-transform: uppercase;
+  font-size: 2rem; }
+  .titulo span {
+    color: #fff; }
+
+main {
+  /*tasaciones*/
+  /*contacto*/
+  /*contacto*/ }
+  main .col {
+    padding: 2rem; }
+  main .col-info {
+    background-image: linear-gradient(to right, #156591, #0269a4, #106bb6, #2e6cc6, #4e6bd4); }
+    main .col-info p {
+      line-height: 1.5; }
+  main .col-img {
+    background-position: center;
+    background-size: cover;
+    height: 768px;
+    width: 768px; }
+  main .boton {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 2px solid #fff;
+    border-radius: 2rem;
+    padding: .8rem 1rem;
+    display: inline-block;
+    margin-top: .5rem;
+    transition: all .3s; }
+    main .boton:hover {
+      background: #fff;
+      color: #000;
+      animation: headShake;
+      animation-duration: 1s; }
+  main .containerForm {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+    margin-top: 20px; }
+    main .containerForm:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-image: url(../images/llaves.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      filter: blur(50px);
+      z-index: -1;
+      background-color: rgba(0, 0, 0, 0.5); }
+  main .contact-box {
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #156591;
+    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19); }
+  main .left {
+    background: url(../images/llaves.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%; }
+  main .right {
+    padding: 25px 40px; }
+  main .contactoh2 {
+    position: relative;
+    padding: 0 0 10px;
+    margin-bottom: 10px;
+    color: #ffd579; }
+    main .contactoh2:after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      height: 4px;
+      width: 50px;
+      border-radius: 2px; }
+  main textarea {
+    min-height: 150px; }
+
 .colorfooter {
   color: #ffd579; }
+
+@media screen and (max-width: 767px) {
+  .col-img {
+    background-image: url(https://picsum.photos/id/1/768);
+    height: 100vw; } }
+
+/* Estilos para desktop */
+@media screen and (min-width: 768px) {
+  .contenedor {
+    display: flex; }
+  .col {
+    width: 50%; }
+  .col-info {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    min-height: 100vh; }
+  .col-info p {
+    font-size: 1.2rem; }
+  /* En desktop si que cargue una imagen mas grande */
+  .col-img {
+    background-image: url(https://picsum.photos/id/1/1200); }
+  .titulo {
+    font-size: 3.5rem; }
+  .titulo span {
+    display: block; } }
+
+@media screen and (min-width: 1200px) {
+  .col-info {
+    padding: 1rem 12rem 1rem 4rem; } }
+
+@media screen and (max-width: 880px) {
+  .containerForm {
+    padding: 20px;
+    margin-top: 55px; }
+  .contact-box {
+    grid-template-columns: 1fr; }
+  .left {
+    background-size: cover;
+    height: 100%; }
+  .right {
+    padding: 25px 20px; } }

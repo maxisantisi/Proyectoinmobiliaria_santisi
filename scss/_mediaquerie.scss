@@ -1,0 +1,56 @@
+@media screen and (max-width:767px) {
+    .col-img {
+        background-image: url(https://picsum.photos/id/1/768);
+        height: 100vw;
+    }
+}
+
+/* Estilos para desktop */
+@media screen and (min-width:768px) {
+    .contenedor { display: flex; }
+
+    .col { width: 50%; }
+
+    .col-info {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
+        min-height: 100vh;
+    }
+
+    .col-info p { font-size: 1.2rem; }
+
+    /* En desktop si que cargue una imagen mas grande */
+    .col-img { background-image: url(https://picsum.photos/id/1/1200); }
+
+    .titulo { font-size: 3.5rem; }
+
+    .titulo span { display: block; }
+
+}
+
+@media screen and (min-width:1200px) {
+    .col-info { padding: 1rem 12rem 1rem 4rem; }
+}
+
+
+@media screen and (max-width: 880px){
+         
+    .containerForm{
+     
+      padding: 20px;
+      margin-top: 55px;  
+    }
+   
+      .contact-box{
+          grid-template-columns: 1fr;
+      }
+      .left{
+          background-size: cover;
+          height: 100%;
+      }
+      .right{
+          padding: 25px 20px;
+      }
+  }
