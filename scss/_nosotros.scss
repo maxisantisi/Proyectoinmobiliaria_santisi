@@ -84,8 +84,8 @@ main {
         .logow {
             position: fixed ;
             top: 70%;
-            left: 85%;
-            border-radius: 50px;
+            left: 80%;
+            border-radius: 0px;
 
         }
     }
@@ -109,6 +109,8 @@ main {
 
 footer {
     margin-top: 30px;
+   
+
 
     .navfooter {
         background-color: $azul;
