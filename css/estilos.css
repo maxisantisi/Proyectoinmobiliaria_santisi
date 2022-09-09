@@ -172,9 +172,7 @@ main {
       line-height: 1.5; }
   main .col-img {
     background-position: center;
-    background-size: cover;
-    height: 768px;
-    width: 768px; }
+    background-size: cover; }
   main .boton {
     color: #fff;
     text-decoration: none;
@@ -247,15 +245,6 @@ main {
 .colorfooter {
   color: #ffd579; }
 
-@media screen and (max-width: 767px) {
-  .col-img {
-    background-image: url(https://picsum.photos/id/1/768);
-    height: 100vw; }
-  .logow {
-    height: 60px;
-    top: 70%;
-    left: 70%; } }
-
 /* Estilos para desktop */
 @media screen and (min-width: 768px) {
   .contenedor {
@@ -272,7 +261,7 @@ main {
     font-size: 1.2rem; }
   /* En desktop si que cargue una imagen mas grande */
   .col-img {
-    background-image: url(https://picsum.photos/id/1/1200); }
+    background-image: url(../images/llave.en.puertanueva.jpg); }
   .titulo {
     font-size: 3.5rem; }
   .titulo span {
@@ -283,13 +272,21 @@ main {
     padding: 1rem 12rem 1rem 4rem; } }
 
 @media screen and (max-width: 880px) {
-  .containerForm {
+  .col-img {
+    background-image: url(../images/llave.en.puertanuevaCHICA.jpg);
+    height: 400px;
+    width: 500px; }
+  .logow {
+    height: 60px;
+    top: 70%;
+    left: 70%; }
+  main .containerForm {
     padding: 20px;
     margin-top: 55px; }
-  .contact-box {
+  main .contact-box {
     grid-template-columns: 1fr; }
-  .left {
+  main .left {
     background-size: cover;
     height: 100%; }
-  .right {
+  main .right {
     padding: 25px 20px; } }
