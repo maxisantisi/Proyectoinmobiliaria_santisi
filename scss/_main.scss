@@ -1,8 +1,12 @@
 .card {
     @include caja_card ();
+    .pcard {
+        color: $azul;
+    }
 
     img {
         height: 200px;
+        object-fit: contain;
 
     }
 }

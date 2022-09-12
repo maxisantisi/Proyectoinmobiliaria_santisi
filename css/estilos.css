@@ -141,8 +141,11 @@ header .btn {
   font-family: 'taviraj';
   gap: 2%;
   margin: 1%; }
+  .card .pcard, .ucard .pcard {
+    color: #156591; }
   .card img, .ucard img {
-    height: 200px; }
+    height: 200px;
+    object-fit: contain; }
 
 h5 {
   color: #156591; }
