@@ -18,7 +18,7 @@
 .logow {
   position: fixed;
   top: 70%;
-  left: 85%;
+  left: 70%;
   border-radius: 50px; }
 
 .footerimg {
@@ -87,8 +87,8 @@ main {
       background-color: #ffd579; }
   main a .logow {
     position: fixed;
-    top: 70%;
-    left: 80%;
+    top: 80%;
+    left: 87%;
     border-radius: 0px; }
   main .card-title-nosotros {
     color: #ffd579; }
@@ -132,7 +132,7 @@ header .btn {
     background-color: #ffd579; }
 
 .card, .ucard {
-  background-color: antiquewhite;
+  background-color: rgb(255, 255, 255);
   grid-template-rows: auto;
   gap: 2%;
   margin: auto;
@@ -146,6 +146,11 @@ header .btn {
   .card img, .ucard img {
     height: 200px;
     object-fit: contain; }
+
+    .reserva {
+      background-color: red;
+      color: #000;
+    }
 
 h5 {
   color: #156591; }
@@ -163,10 +168,7 @@ h5 {
   .titulo span {
     color: #fff; }
 
-main {
-  /*tasaciones*/
-  /*contacto*/
-  /*contacto*/ }
+
   main .col {
     padding: 2rem; }
   main .col-info {
